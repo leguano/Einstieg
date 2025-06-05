@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Navigation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li>
-                Grundschule
+            <li class="open">
+                <span class="toggle">Grundschule</span>
                 <ul>
                     <li><a>Deutsch</a></li>
                     <li><a>Englisch</a></li>
@@ -21,7 +22,7 @@
                 </ul>
             </li>
             <li>
-                Mittlere Schulformen
+                <span class="toggle">Mittlere Schulformen</span>
                 <ul>
                     <li><a>Wirtschaft</a></li>
                     <li><a>Biologie</a></li>
@@ -34,7 +35,7 @@
                 </ul>
             </li>
             <li>
-                Gymnasium
+                <span class="toggle">Gymnasium</span>
                 <ul>
                     <li><a>Biologie</a></li>
                     <li><a>Chemie</a></li>
@@ -47,7 +48,7 @@
                 </ul>
             </li>
             <li>
-                Berufliche Bildung
+                <span class="toggle">Berufliche Bildung</span>
                 <ul>
                     <li><a>Gesundheit</a></li>
                     <li><a>Pflege</a></li>
@@ -61,5 +62,6 @@
             </li>
         </ul>
     </nav>
+    <script src="script.js" defer></script>
 </body>
 </html>
