@@ -1,0 +1,14 @@
+nav ul ul {
+    display: none;
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+nav li.open > ul {
+    display: block;
+}
+
+nav li > span.toggle {
+    cursor: pointer;
+    display: block;
+}
